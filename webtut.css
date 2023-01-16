@@ -1,0 +1,98 @@
+body{
+    background: url('img/robo2.png');
+    background-size: 1270px;
+    background-repeat: no-repeat;
+    height: 925px;
+}
+div{
+    display: inline-block;
+    /*inline = same line & touching, no width or height tampering
+    inline-block = same line & touching, width or height tampering allowed
+    block = nextline,width or height tampering allowed*/
+    /* border: 2px solid whitesmoke; */
+    color: aliceblue;     
+    border-radius: 3px;
+    size: 11px;
+    padding: 3px;
+    font-size: larger;
+}
+.icon{
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+.icon img{
+    width: 107px;
+    height: 138px;
+    border-radius: 7px;
+    margin-left: 13px;
+    background-color: aliceblue;
+   
+    
+}
+.navigation{
+    display: block;
+    height: 26px;
+    width: 36%;
+    margin: 41px;
+    margin-top: -1px;
+    left: 28.5%;
+    position: fixed; /*by jhol it gets in right*/
+    background: rgb(64, 64, 64);
+    border-radius: 7px;
+}
+.contact{
+    position: absolute;
+    right: 34px;
+    top: 31px;
+    font-size: 20px;
+}
+/* .contact_img{
+    position: absolute;
+    right: -16px;
+    top: -29px;
+    size: 50px;
+    opacity: 0.7;
+} */
+/* .contact_img:hover{
+    opacity: 1;
+} */
+.contact:hover{
+    font-size: 22px;
+    color: antiquewhite;
+    text-decoration:underline;
+    /* opacity: 0; */
+    z-index: -1;
+    /* visibility: hidden; */
+}
+
+.navigation li{
+    display: inline-block;
+    
+}
+.navigation li a{
+    font-size: 11px;
+    font-weight: 600;
+    color: #ffff;
+    text-shadow: 2px 2px rgb(88, 86, 86);
+    text-decoration: none;
+    
+    
+}
+.navigation li a:hover{
+    font-size: 13px;
+    color: rgb(232, 224, 163);
+    text-decoration: underline;
+    text-shadow: none;
+    
+}
+.navigation ul{
+    position: relative;
+    padding: 0px;
+    bottom: 18px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    
+}
